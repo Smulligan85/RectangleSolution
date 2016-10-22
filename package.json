@@ -1,0 +1,17 @@
+{
+  "name": "js-rectangle",
+  "version": "1.0.0",
+  "description": "JS Rectangle Solution",
+  "main": "index.js",
+  "scripts": {
+    "test": "run test"
+  },
+  "author": "Sean Mulligan",
+  "license": "MIT",
+  "dependencies": {
+    "jasmine": "^2.5.2"
+  },
+  "devDependencies": {
+    "jasmine": "^2.5.2"
+  }
+}
