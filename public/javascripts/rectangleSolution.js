@@ -19,7 +19,7 @@ function findLongestWord(array) {
 }
 
 
-function strMakerWithSize(strArr) {
+function strMakerWithEvenSides(strArr) {
     var recSize = findLongestWord(strArr) + 4;
     var endLine = '*'.repeat(recSize);
     var rectangleString = "";
@@ -34,5 +34,5 @@ function strMakerWithSize(strArr) {
 }
 
 var arr = ["Hello", "World", "in", "a", "frame"];
-console.log(strMakerWithSize(arr));
+console.log(strMakerWithEvenSides(arr));
 console.log(strMaker(arr));
