@@ -1,5 +1,5 @@
 function strMaker(strArr) {
-    rectangleString = "";
+    var rectangleString = "";
     rectangleString += '*********\n';
     strArr.forEach(function(word) {
         rectangleString += '* ' + word + ' *\n';
@@ -25,9 +25,9 @@ function strMakerWithEvenSides(strArr) {
     var rectangleString = "";
     rectangleString += endLine + '\n';
     strArr.forEach(function(word) {
-        var findLength = recSize - (word.length + 3);
+        var spaceFillLength = recSize - (word.length + 4);
         var spaceFill = " ".repeat(findLength);
-        rectangleString += '* ' + word + spaceFill + '*\n';
+        rectangleString += '* ' + word + spaceFill + ' *\n';
     });
     rectangleString += endLine + '\n';
     return rectangleString;
