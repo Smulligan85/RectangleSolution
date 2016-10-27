@@ -26,7 +26,7 @@ function strMakerWithEvenSides(strArr) {
     rectangleString += endLine + '\n';
     strArr.forEach(function(word) {
         var spaceFillLength = recSize - (word.length + 4);
-        var spaceFill = " ".repeat(findLength);
+        var spaceFill = " ".repeat(spaceFillLength);
         rectangleString += '* ' + word + spaceFill + ' *\n';
     });
     rectangleString += endLine + '\n';
